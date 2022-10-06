@@ -72,7 +72,7 @@ class Game{
                  
                  }
                 
-                if(player.score>=5){
+                if(player.score<=5){
                     player.rank += 1;
                     updatePlayerAtEnd(player.rank);
 
